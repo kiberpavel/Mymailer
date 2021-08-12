@@ -1,0 +1,19 @@
+{
+    "name": "pasha/mysite",
+    "description": "Stydy project to company",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Pavel Butenko",
+            "email": "butenkobutenko2019@gmail.com"
+        }
+    ],
+    "require": {
+        "swiftmailer/swiftmailer": "^6.0",
+        "monolog/monolog": "^2.3"
+    }
+}
